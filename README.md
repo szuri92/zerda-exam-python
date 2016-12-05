@@ -39,4 +39,4 @@ The application is accepted if:
 
 
 ### What does V stand for in MVC? [2p]
-#### Your answer:
+#### Your answer: The V in MVC stands for "View". In the standard MVC model you put everything in your View that is responsible for the visualization, so what the user sees.
