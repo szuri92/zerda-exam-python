@@ -15,5 +15,5 @@ def write_in_text(file_name, text):
     except:
         return False
 
-write_in_text('tree.tjkkjjkxt', 'apple')
-print(write_in_text('tree.txt', 'apple'))
+
+write_in_text('tree.txt', 'apple')
