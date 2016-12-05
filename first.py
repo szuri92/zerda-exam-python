@@ -3,7 +3,6 @@
 # It should raise an error if the parameter is not a list.
 # Example: with the input [1, 2, 3, 4, 5] it should return [2, 4].
 
-
 def even_list(my_list):
     result = []
     if type(my_list) == list:
@@ -13,5 +12,3 @@ def even_list(my_list):
         return result
     else:
         raise TypeError
-
-even_list(3)
