@@ -28,7 +28,15 @@ The application is accepted if:
 #### Your answer:
 
 ### How can you create a graphical user interface and draw a rectangle on it in python? What are the tools needed for it? [2p]
-#### Your answer:
+#### Your answer: First you need the tkinter module. Then you have to create a canvas, where you draw your rectangle (you need a mainloop so your canvas stays on the screen). You can draw a rectangle by creating a polygon with 3 points (canvas.create_polygon(), giving each point with x, y coords). Example:
+### root = Tk()
+###from tkinter import *
+###size = 400
+###canvas = Canvas(root, width = size, height = size)
+###canvas.pack()
+###canvas.create_polygon(0, 0, 2, 2, 0, 2)
+###root.mainloop()
+
 
 ### What does V stand for in MVC? [2p]
 #### Your answer:
